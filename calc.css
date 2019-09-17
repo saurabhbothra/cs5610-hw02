@@ -1,0 +1,51 @@
+@charset "ISO-8859-1";
+
+#p1 {
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+#t1 {
+	background-color: blue;
+	height: 200px;
+	width: 400px;
+}
+
+#t1, th, td {
+	border: 1px solid black;
+	margin: 0 auto;
+}
+
+th, td {
+	padding: 5px;
+	text-align: center;
+}
+
+#tb1 {
+	text-align: right;
+	padding: 15px 120px;
+	font-size: 20px;
+}
+
+#buttonAdd {
+	border-style: solid;
+	border-left-style: none;
+	padding: 15px;
+	background-color: white;
+}
+
+#buttonEquals {
+	border-style: solid;
+	border-right-style: none;
+	padding: 15px;
+	background-color: white;
+}
+
+#button4, #button1, #button2, #button3, #button5, #button6, #button7,
+	#button8, #button0, #button9, #buttonMultiply, #buttonDivide,
+	#buttonSubtract, #buttonDecimal, #buttonClear {
+	border-style: solid;
+	padding: 15px 32px;
+	background-color: white;
+}
